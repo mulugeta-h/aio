@@ -1,0 +1,77 @@
+.userTable {
+  width: 96%;
+  margin: 10px auto;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+}
+.userTable table {
+  width: 100%;
+  margin-top: 10px;
+}
+.userTable table thead th {
+  background-color: darkcyan;
+  color: white;
+  font-size: small;
+  text-transform: uppercase;
+}
+
+.userTable table tbody td {
+  padding: 4px;
+  text-align: left;
+  vertical-align: middle;
+  font: 14px sans-serif;
+}
+.actionButtons button {
+  margin: 0 10px;
+}
+
+.tabs input {
+  margin-left: 10px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  gap: 10px;
+}
+
+/* Filtered row count label */
+.tabs span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ff5e00;
+}
+
+.pagination button {
+  padding: 4px 10px;
+  border: 1px solid #ccc;
+  background: #f8f9fa;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.pagination button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+
+@media (max-width: 768px) {
+  .tabs {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .tabs input {
+    margin-left: 0;
+  }
+}
+
+
