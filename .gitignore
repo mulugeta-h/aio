@@ -7,6 +7,9 @@ node_modules/
 # Logs
 *.log
 
+# Logs
+*.zip
+
 # VS Code settings
 .vscode/
 
