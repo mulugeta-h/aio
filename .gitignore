@@ -1,16 +1,19 @@
-# Node modules
+# Dependencies
 node_modules/
 
-# Environment files
+# Environment variables / secrets
 *.env
+.env
+.env.*
 
 # Logs
 *.log
+logs/
 
-# Logs
+# Archives
 *.zip
 
-# VS Code settings
+# VS Code
 .vscode/
 
 # Build outputs
